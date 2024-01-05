@@ -8,6 +8,24 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        bittersweet: {
+          100: "#FEEADD",
+          200: "#FDAEAE",
+          400: "#FD8478",
+          500: "#FC6363",
+        },
+        jasmine: {
+          100: "#FDF9EA",
+          200: "#FAE9AC",
+          500: "#F7DD80",
+        },
+        verdigris: {
+          100: "#B4E9EA",
+          200: "#82D9DC",
+          500: "#05B4B9",
+        },
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
